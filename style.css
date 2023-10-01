@@ -1,0 +1,99 @@
+body{
+height: 3000px;
+
+}
+
+#logo{
+    color: black;
+    margin-right: 540px;
+    font-size: 50px;
+}
+#ul{
+    list-style: none; /**retira as bolinhas**/
+    display: flex; /**coloca um ao lado do outro**/ 
+
+}
+.menu{
+   /** position: fixed; **/
+    width: 100%;
+    top:20px;
+    
+}
+
+.center{
+    display: flex;
+    padding:20px;
+    height: 470px;
+}
+
+#ul2{
+    list-style-type:none;
+    color: rgb(255, 255, 255);
+    
+}
+
+#bloco{
+    margin-left: 20px;
+    width: 315px;
+    height: 495px;
+    background-color: hsl(240, 100%, 5%);
+}
+
+#navegar{
+    margin-right: 20px;
+    margin-top: 30px;
+    list-style:none;
+}
+
+.escrita{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a{
+    font-size: 15px;
+}
+
+#b{
+    background-color:  hsl(5, 85%, 63%);
+    width: 150px;
+    height: 40px;
+    border: none;
+    color: hsl(36, 100%, 99%);
+}
+
+.conjunto{
+    display: flex;
+    flex-direction: column;
+}
+.imagens{
+    display: flex;
+    width: 1000px;
+    padding: 20px;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+#final{
+    list-style: none;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-right: 5px;
+}
+
+#attribution{
+    margin-left: 300px;
+}
+
